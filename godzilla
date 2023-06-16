@@ -1,0 +1,15 @@
+import time
+
+# Define the steps of Godzilla's walk
+steps = ["  o  0  ", " /|\\ |\\ ", " / \\ / \\"]
+
+# Loop through the steps and print them out
+for step in steps:
+    print(step)
+    time.sleep(0.5)  # Wait for half a second before printing the next step
+
+
+
+  o  0  
+ /|\ |\
+ / \ / \
